@@ -1,0 +1,118 @@
+.main-container {
+    background-image: url("https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/banner-bg.jpg");
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container1 {
+    line-height: 70px;
+}
+
+.text-1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.text-2 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.container2 {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.drop-down,
+.location,
+.prices {
+    width: 25%;
+    text-align: center;
+}
+
+.search-bar {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.drop-down>select,
+.prices>select {
+    padding: 10px;
+    border: none;
+    border-right: 2px solid;
+    background-color: white;
+    font-size: 20px;
+    color: gray;
+}
+
+.prices>select {
+    border-right: 0px solid;
+}
+
+.location>input {
+    padding: 10px;
+    border: none;
+    border-right: 2px solid;
+    font-size: 20px;
+    color: black;
+    outline: none;
+}
+
+.search-bar {
+    background-color: #8d99af;
+    padding: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-bar>i {
+    color: white;
+    font-weight: bold;
+}
+
+.container3 {
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.container3>div {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    color: gray;
+}
+
+.container4 {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    width: 62%;
+    color: white;
+}
